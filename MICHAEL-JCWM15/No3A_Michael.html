@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal3</title>
+    <style>
+        table, tr, td, th {
+            border : 1px solid black ;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FORM USERS</h1>
+    <form id="addusers"><input type="text" id="username" placeholder="username">
+    <input type="text" id="email" placeholder="email">
+    role
+    <select id="role">
+        <option value="user"> user </option>
+        <option value="admin"> admin </option>
+    </select></form>
+    <br>
+    <button onclick="buttonadd()">add user</button>
+
+    <h1>USERS DATA</h1>
+    <table id="formusers">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="body"></tbody>
+    </table>
+
+</body>
+
+<script src="/MICHAEL-JCWM15/No3B_Michael.js"></script>
+</html>
